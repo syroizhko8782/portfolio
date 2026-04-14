@@ -45,9 +45,12 @@ export default function App() {
           theme === 'dark' ? 'bg-slate-800 border-slate-700 shadow-none' : 'bg-white border-pink-50 shadow-2xl'
         }`}>
           
-          <Header />
-          
-          <main className="p-8 md:p-16 space-y-20">
+        <div style={{ backgroundColor: 'yellow', color: 'red', textAlign: 'center', padding: '10px', fontWeight: 'bold' }}>
+  САЙТ ОНОВЛЕНО (ЧАСТИНА 1)
+</div>
+<Header />
+
+<main className="p-8 md:p-16 space-y-20" style={{ borderTop: '5px solid blue' }}>
             <Profile />
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
