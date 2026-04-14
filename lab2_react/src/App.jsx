@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <div className={`min-h-screen transition-colors duration-500 ${
-      theme === 'dark' ? 'bg-slate-900 text-slate-100' : 'bg-[#fafafa] text-slate-900'
+      theme === 'dark' ? 'bg-slate-900 text-slate-100' : 'bg-[#e0f2fe] text-slate-900'
     }`}>
       
       {}
