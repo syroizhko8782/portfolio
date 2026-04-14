@@ -17,7 +17,7 @@ export default function Header() {
         
         <div className="space-y-2 text-center md:text-right">
           <p className="text-sm font-bold text-slate-600">khrystyna.syroizhko@lpnu.ua</p>
-          <p className="text-xs font-black text-pink-400 uppercase tracking-widest">Lviv, Ukraine</p>
+          <p className="text-sm font-bold text-slate-600">Lviv, Ukraine</p>
         </div>
       </div>
     </header>
